@@ -32,6 +32,7 @@ import org.reactivestreams.Subscription;
 import software.amazon.awssdk.annotations.SdkInternalApi;
 import software.amazon.awssdk.core.async.AsyncResponseTransformer;
 import software.amazon.awssdk.core.async.SdkPublisher;
+import software.amazon.awssdk.utils.Logger;
 
 /**
  * {@link AsyncResponseTransformer} that writes the data to the specified file.
@@ -40,6 +41,7 @@ import software.amazon.awssdk.core.async.SdkPublisher;
  */
 @SdkInternalApi
 public final class FileAsyncResponseTransformer<ResponseT> implements AsyncResponseTransformer<ResponseT, ResponseT> {
+    private static final Logger log = Logger.loggerFor(FileAsyncResponseTransformer.class);
     private final Path path;
     private volatile AsynchronousFileChannel fileChannel;
     private volatile CompletableFuture<Void> cf;
