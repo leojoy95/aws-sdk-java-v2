@@ -41,12 +41,12 @@
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>regions</artifactId>
-            <version>${awsjavasdk.version}</version>
+            <version>2.16.20</version>
         </dependency>
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>auth</artifactId>
-            <version>${awsjavasdk.version}</version>
+            <version>2.16.20</version>
         </dependency>
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
