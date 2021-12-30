@@ -297,12 +297,12 @@
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>sdk-core</artifactId>
-            <version>${awsjavasdk.version}</version>
+            <version>2.16.20</version>
         </dependency>
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>auth</artifactId>
-            <version>${awsjavasdk.version}</version>
+            <version>2.16.20</version>
         </dependency>
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
@@ -312,7 +312,7 @@
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>regions</artifactId>
-            <version>${awsjavasdk.version}</version>
+            <version>2.16.20</version>
         </dependency>
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
@@ -327,7 +327,7 @@
         <dependency>
             <artifactId>aws-core</artifactId>
             <groupId>software.amazon.awssdk</groupId>
-            <version>${awsjavasdk.version}</version>
+            <version>2.16.20</version>
         </dependency>
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
