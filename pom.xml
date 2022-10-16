@@ -84,10 +84,10 @@
         <url>https://github.com/aws/aws-sdk-java-v2.git</url>
     </scm>
     <properties>
-        <awsjavasdk.version>${project.version}</awsjavasdk.version>
+        <awsjavasdk.version>2.17.0</awsjavasdk.version>
         <awsjavasdk.previous.version>2.16.19</awsjavasdk.previous.version>
         <jackson.version>2.12.1</jackson.version>
-        <jackson.databind.version>2.12.1</jackson.databind.version>
+        <jackson.databind.version>2.12.7.1</jackson.databind.version>
         <jacksonjr.version>2.11.2</jacksonjr.version>
         <eventstream.version>1.0.1</eventstream.version>
         <ion.java.version>1.2.0</ion.java.version>
