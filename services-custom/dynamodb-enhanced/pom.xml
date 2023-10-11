@@ -36,7 +36,7 @@
     </repositories>
 
     <properties>
-        <awsjavasdk.version>${project.parent.version}</awsjavasdk.version>
+        <awsjavasdk.version>2.20.162</awsjavasdk.version>
         <jre.version>1.8</jre.version>
     </properties>
 
