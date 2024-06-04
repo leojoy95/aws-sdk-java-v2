@@ -84,7 +84,7 @@
         <url>https://github.com/aws/aws-sdk-java-v2.git</url>
     </scm>
     <properties>
-        <awsjavasdk.version>${project.version}</awsjavasdk.version>
+        <awsjavasdk.version>2.25.66</awsjavasdk.version>
         <awsjavasdk.previous.version>2.16.19</awsjavasdk.previous.version>
         <jackson.version>2.12.1</jackson.version>
         <jackson.databind.version>2.12.1</jackson.databind.version>
